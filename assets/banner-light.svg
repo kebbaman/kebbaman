@@ -1,0 +1,65 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kebba Manneh — Solution Architect and Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e9f0f9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <radialGradient id="glowTeal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#334155" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="round">
+      <rect width="1000" height="260" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+    <rect width="1000" height="260" fill="url(#grid)"/>
+    <circle cx="890" cy="30" r="230" fill="url(#glowTeal)"/>
+    <circle cx="110" cy="270" r="210" fill="url(#glowBlue)"/>
+
+    <!-- architecture node diagram, right side -->
+    <g stroke="url(#accent)" stroke-opacity="0.5" stroke-width="1.5" fill="none">
+      <path d="M856 130 L774 78"/>
+      <path d="M856 130 L936 64"/>
+      <path d="M856 130 L768 186"/>
+      <path d="M856 130 L942 192"/>
+      <path d="M774 78 L936 64"/>
+      <path d="M768 186 L942 192"/>
+      <path d="M936 64 L942 192" stroke-dasharray="4 5"/>
+      <path d="M774 78 L768 186" stroke-dasharray="4 5"/>
+    </g>
+    <g fill="#f8fafc" stroke="url(#accent)" stroke-width="2">
+      <circle cx="856" cy="130" r="11"/>
+      <circle cx="774" cy="78" r="7"/>
+      <rect x="928" y="56" width="16" height="16" rx="4"/>
+      <rect x="760" y="178" width="16" height="16" rx="4"/>
+      <circle cx="942" cy="192" r="7"/>
+    </g>
+    <circle cx="856" cy="130" r="4" fill="url(#accent)"/>
+
+    <!-- text block -->
+    <text x="64" y="118" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="0.5" fill="url(#nameGrad)">Kebba Manneh</text>
+    <rect x="66" y="138" width="128" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="177" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#0d9488">Solution Architect &#183; Software Engineer</text>
+    <text x="64" y="209" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#55657d">Backend-first &#183; Mobile &amp; Web &#183; GenAI in the SDLC &#183; Milan, Italy</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="999" height="259" rx="15.5" fill="none" stroke="#d7dfeb"/>
+</svg>
